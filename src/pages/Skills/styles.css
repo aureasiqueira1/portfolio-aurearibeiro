@@ -1,0 +1,68 @@
+
+.skills-section {
+  position: relative !important;
+  padding-top: 5% ;
+  padding-bottom: 30px !important;
+  background: linear-gradient(90deg, rgb(220, 167, 255) 0%, rgb(129, 48, 186) 45%, rgb(99, 0, 112) 100%);
+  color: rgb(255, 255, 255) !important;
+  box-shadow: 0px 36px 55px -6px rgba(0,0,0,0.55);
+
+}
+
+.skills-heading {
+  margin-bottom: 3%;
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: 'Jura';
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.tech-icons p {
+  font-size: 1.2vw;
+  margin-top: 5px;
+}
+
+.tech-icons {
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: clip; 
+  border: 1px solid #000000;
+  font-size: 4.5em !important;
+  margin: 1% !important;
+  padding: 2% !important;;
+  opacity: 0.93 !important;
+  border: 1.7px solid #E290FE !important; 
+  text-align: center !important;
+  border-radius: 100% !important;
+  box-shadow: 4px 5px 4px 3px #570c70 !important;
+  overflow: hidden !important;
+  transition: all 0.3s ease 0s !important;
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+    
+  }
+}
+
+@media (max-width: 500px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+
+  .tech-icons p {
+    font-size: 4vw;
+  }
+}
+
+.tech-icons:hover {
+  transform: scale(1.15) !important;
+  overflow: hidden !important;
+/*  border: 2.2px solid #E290FE !important; */
+
+  border: 2.2px solid #E290FE !important;
+
+}

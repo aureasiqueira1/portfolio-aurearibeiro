@@ -1,0 +1,144 @@
+header > .presentation > h1{
+  font-family: 'Kanit';
+  font-size: 6vw;
+  color: #E290FE;
+  animation: go-back 1s;
+  margin-bottom: 40px;
+}
+
+@keyframes go-back {
+  0% {
+      transform: translateX(100px);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+header > .presentation > h2 {
+  font-family: 'Lato';
+  color: #fff;
+  font-size: 3vw;
+  animation: go-back 1s;
+
+}
+
+header > .presentation > div {
+  color: #fff;
+  font-size: 1vw;
+  animation: go-back 1s;
+
+}
+
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 0%;
+  margin-left: -100%;
+  margin-right: 0%;
+  width: 60vw;
+}
+
+header {
+  background: linear-gradient(90deg, rgb(220, 167, 255) 0%, rgb(129, 48, 186) 45%, rgb(99, 0, 112) 100%);
+  width: 100%;
+  height: 65vh;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 36px 55px -6px rgba(0,0,0,0.55);
+}
+
+header > img {
+  display: flex;
+  justify-content: right;
+  align-self: center;
+  width: 35vw;
+  height: auto;
+  margin-left: 60%;
+}
+
+
+/* Responsividade */
+@media screen and (max-width: 500px) {
+  /* Header */
+  header {
+      background-color: #7640b870;
+      width: 100%;
+      height: 40vh;
+      margin-top: 3%;
+      margin-bottom: 3%;
+  }
+   
+  .presentation {
+      margin-left: -100%;
+      margin-right: 0%;
+      width: 60vw;
+  }
+  
+  .presentation > h1 {
+      font-size: 8vw;
+  }
+  
+  .presentation > h2 {
+      font-size: 5vw;
+  }
+  
+  .presentation > h3 {
+      font-size: 3.8vw;
+      padding-bottom: 5%;
+      margin-top: -4%;
+  }
+  
+  header > img {
+      display: flex;
+      justify-content: right;
+      align-self: center;
+      width: 40vw;
+      height: auto;
+      margin-left: 55%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+  /* Header */
+  header {
+    background-color: #7640b870;
+    width: 100%;
+    height: 60vh;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+ 
+.presentation {
+    margin-left: -100%;
+    margin-right: 0%;
+    width: 60vw;
+}
+
+.presentation > h1 {
+    font-size: 8vw;
+}
+
+.presentation > h2 {
+    font-size: 5vw;
+}
+
+.presentation > h3 {
+    font-size: 3.8vw;
+    padding-bottom: 5%;
+    
+}
+
+header > img {
+    display: flex;
+    justify-content: right;
+    align-self: center;
+    width: 40vw;
+    height: auto;
+    margin-left: 55%;
+}
+}
+

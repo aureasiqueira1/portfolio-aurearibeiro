@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;600&family=Jura:wght@400;700&family=Kanit:wght@500&family=Lato:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #250235 !important;
+}
+
+
+
+
+
+.App {
+  text-align: center;
+}
+
+
+button:focus {
+  box-shadow: -3px 18px 39px -6px rgba(0,0,0,0.55);
+
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2d1950;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(102, 255, 255);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(102, 255, 255, 0.8);
+  border-radius: 12px;
+}
+
+#no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.img-fluid {
+  width: 70%;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
