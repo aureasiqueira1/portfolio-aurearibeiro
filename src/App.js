@@ -30,6 +30,21 @@ function App() {
     }
   }, [load]);
 
+  useEffect(() => {
+    if (!load) {
+      //Menu Hambúrguer
+
+      const btnMobile = document.getElementById("btnMobile");
+
+      function toggleMenu() {
+        const nav = document.getElementById("nav");
+        nav.classList.toggle("ativado");
+      }
+
+      btnMobile.addEventListener("click", toggleMenu);
+    }
+  }, [load]);
+
   return (
     <div>
       <div className="App" id={load ? "no-scroll" : "scroll"}>
