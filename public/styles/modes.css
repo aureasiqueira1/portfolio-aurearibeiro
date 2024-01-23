@@ -33,36 +33,36 @@
     background-image: url(../../src/assets/img/Dark\ \(1\).png);
 }
 
-main.dark{
+.dark{
     background-color: #ebc5fb;
 }
 
-main.dark nav > ul > a > li{
+.dark nav > ul > a > li{
     color: #780DAA;
     font-weight: 600;
 }
 
-main.dark hr{
+.dark hr{
     color: #d163f5;
 }
 
-main.dark header{
+.dark header{
     background-color: #520377;
 }
 
 
 
-main.dark .skills > h1{
+.dark .skills > h1{
     color: #C43FF3;
     font-weight: 600;
 }
 
-main.dark .projects > h1{
+.dark .projects > h1{
     color: #C43FF3;
     font-weight: 600;
 }
 
-main.dark .study > h1{
+.dark .study > h1{
     color: #C43FF3;
     font-weight: 600;
 }
@@ -70,7 +70,7 @@ main.dark .study > h1{
 
 
 
-main.dark .card-text{
+.dark .card-text{
     color: #14001d;
 }
 
@@ -78,7 +78,7 @@ main.dark .card-text{
 
 /* menu Mobile */
 
-main.dark #nav.ativado #menu {
+.dark #nav.ativado #menu {
     background-color: #e2b5f6;
 }
 
