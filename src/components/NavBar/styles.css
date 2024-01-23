@@ -10,9 +10,6 @@ a {
   text-decoration: none !important;
 }
 
-
-
-
 .dark nav > ul > a > li{
   color: #780DAA;
   font-weight: 600;
@@ -41,8 +38,6 @@ nav > ul > a > li:hover{
   color: rgb(207, 15, 210);
 }
 
-
-
 .line {
   margin: 0 auto;
   margin-top: 0vh; 
@@ -52,7 +47,6 @@ nav > ul > a > li:hover{
   display: none ;
 }
 
-/* /////////////////////////////////////////// */
 /* Modo Dark e Ligth */
 
 .trilho{
@@ -69,14 +63,12 @@ nav > ul > a > li:hover{
   width: 32px;
   height:32px;
   background-color: #fff;
-  background-image: url(../../../src/assets/img/Dark\ \(1\).png);
-
+  background-image: url(../../../src/assets/img/Dark.png);
   border-radius: 50%;
   transform: scale(.9);
   position: absolute;
   left: 0;
   transition: 0.5s;
-
 }
 
 .trilho.dark{
@@ -106,17 +98,11 @@ nav > ul > a > li:hover{
 hr{
   color: #ffffff !important;
   opacity: 0.55;
-
 }
-
-
-
 
 .dark header{
   background-color: #520377;
 }
-
-
 
 .dark .skills > h1{
   color: #C43FF3;
@@ -133,20 +119,11 @@ hr{
   font-weight: 600;
 }
 
-
-
-
-
-
 /* menu Mobile */
 
 .dark #nav.ativado #menu {
   background-color: #e2b5f6;
 }
-
-
-
-/* /////////////////////////////////////////// */
 
 @media screen and (min-width: 501px) and (max-width: 900px) {
   /* Navegation */
