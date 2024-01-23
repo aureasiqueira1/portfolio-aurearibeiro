@@ -1,9 +1,12 @@
 .infoContact > h1 {
   font-family: 'Kanit';
-  color: #fff;
+  font-size: 3.5em;
+  display: flex;
+  align-items: center;
   margin-bottom: 4%;
   margin-top: 2%;
-  font-size: 3.5em;
+  color: #fff;
+  justify-content: center;
 }
 
 /* Seção: Contate-me */
@@ -15,32 +18,37 @@
   display: flex;
   flex-direction: row;
   box-shadow: 0px 36px 55px -6px rgba(0,0,0,0.55);
+  
 }
 
 .infoContact {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+
 }
 
 .contact > figure {
-   width: 100%;
+   width: 50%;
 }
 
 .contact > figure > img {
-  width: 30vw;
+  width: 25vw;
   height: auto;
 
 }
 
+.infoDetails{
+  margin-left: 40%;
+}
 
 .gmail a, .linkedin a, .github a {
   display: flex;
   align-items: center;
   margin-bottom: 1%;
   margin-top: 2%;
-  margin-left: 35%;
   color: #fff;
+  align-items: center;
 }
 
 .linkedin img, .github img {
@@ -65,10 +73,14 @@
    .infoContact > h1 {
     font-family: 'Inter';
     font-weight: 700;
-    color: #09E4E4;
-    margin-bottom: 3%;
+    color: #fff;
+    margin-bottom: 10%;
     margin-top: 2%;
     font-size: 3.5em;
+  }
+
+  .infoDetails{
+    margin-left: 0%;
   }
 
    .contact {
@@ -79,13 +91,13 @@
     box-shadow: 0px 36px 55px -6px rgba(0,0,0,0.55);
     height: 80vh;
     justify-content: center;
-    padding-bottom: 25px;
 }
 
 
 .infoContact {
     display: flex;
     flex-direction: column;
+    
   
 }
 
@@ -95,7 +107,6 @@
 
 .contact > figure {
      justify-content: center;
-     padding: 5%;
 
 }
 
@@ -104,16 +115,30 @@
   
 }
 
+.gmail a, .linkedin a, .github a {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10%;
+  margin-top: 2%;
+  color: #fff;
+  align-items: center;
+
+}
+
+
+
+
+
 .linkedin img, .github img {
   margin-right:2%; 
   padding-bottom: 1%;
-  width: 30px;
+  width: 20px;
   height: auto;
 
 }
 
 .gmail img{
-  width: 30px;
+  width: 20px;
   height: auto;
   margin-right:2%; 
   padding-bottom: 1%;
@@ -122,6 +147,9 @@
 
 .gmail p, .linkedin p, .github p {
     font-size: 3vw;
+  
+  margin-bottom: 0%;
+  margin-left: 7%;
 }
 }
 
@@ -129,7 +157,7 @@
  /* Contact me */
  .infoContact > h1 {
   font-family: 'Kanit';
-  color: #09E4E4;
+  color: #fff;
   margin-bottom: 4%;
   margin-top: 2%;
   font-size: 3.5em;
@@ -179,17 +207,24 @@
 .linkedin img, .github img {
   margin-right:2%; 
   padding-bottom: 1%;
+  width: 30px;
+  height: auto;
+}
+
+.infoDetails{
+  margin-left: 0%;
 }
 
 .gmail img{
-  width: 45px;
-  height: 52.02px;
+  width: 30px;
+  height: auto;
   margin-right:2%; 
   padding-bottom: 1%;
 }
 
 .gmail p, .linkedin p, .github p {
-  font-size: 1.2em;
+  font-size: 1em;
+  margin-left: 5%;
 }
 
 }

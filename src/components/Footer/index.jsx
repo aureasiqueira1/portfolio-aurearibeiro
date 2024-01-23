@@ -14,25 +14,27 @@ export function Footer() {
 
         <div className="infoContact">
           <h1>Contatos</h1>
-          <div className="gmail">
-            <a href="mailto:aurea@gec.inatel.br">
-              <img src={outlook} alt="Gmail" />
-              <p>aurea@gec.inatel.br</p>
-            </a>
-          </div>
+          <div className="infoDetails">
+            <div className="gmail">
+              <a href="mailto:aurea@gec.inatel.br">
+                <img src={outlook} alt="Gmail" />
+                <p>aurea@gec.inatel.br</p>
+              </a>
+            </div>
 
-          <div className="linkedin">
-            <a href="https://www.linkedin.com/in/aureasiqueira/">
-              <img src={linkedin} alt="Linkedin" />
-              <p>Áurea Ribeiro</p>
-            </a>
-          </div>
+            <div className="linkedin">
+              <a href="https://www.linkedin.com/in/aureasiqueira/">
+                <img src={linkedin} alt="Linkedin" />
+                <p>Áurea Ribeiro</p>
+              </a>
+            </div>
 
-          <div className="github">
-            <a href="https://github.com/aureasiqueira1">
-              <img src={github} alt="GitHub" />
-              <p>@aureasiqueira1</p>
-            </a>
+            <div className="github">
+              <a href="https://github.com/aureasiqueira1">
+                <img src={github} alt="GitHub" />
+                <p>@aureasiqueira1</p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
