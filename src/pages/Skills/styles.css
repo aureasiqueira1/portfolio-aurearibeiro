@@ -46,9 +46,34 @@
     margin: 10px !important;
     
   }
+
+
 }
 
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+
+  .skills-heading{
+    margin-bottom: 3%;
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Jura';
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+}
 @media (max-width: 500px) {
+  .skills-heading{
+    margin-bottom: 3%;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Jura';
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
   .tech-icons {
     margin: 10px !important;
   }

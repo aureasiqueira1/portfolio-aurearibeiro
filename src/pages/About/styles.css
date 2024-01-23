@@ -74,12 +74,12 @@
   padding: 15px;
   border-radius: 25px !important;
   transition: all 0.4s !important;
-  margin-top: 7%;
-  width: 350px;
+  margin-top: 3%;
+  width: 270px;
   align-items: center !important;
   justify-content: center !important;
   color: #E290FE;
-  font-size: 1.7vw;
+  font-size: 1.4vw;
 }
 
 .download > div {
@@ -96,27 +96,57 @@
 @media screen and (max-width: 500px) {
     /* About */
     .about {
-      display: flex;
       flex-direction: column;
-      margin-top: 6%;
-      margin-bottom: 6%;
+
   }
   
+  .aboutMe {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Download button */
+.download {
+  background-color: #250235 !important;
+  display: inline-flex;
+  border: 3px solid #E290FE !important;
+  padding: 5px;
+  border-radius: 25px !important;
+  transition: all 0.4s !important;
+  margin-top: 7%;
+  width: 150px;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #E290FE;
+  font-size: 3vw;
+
+}
+
+.download > div {
+  margin-left: 5px;
+
+}
+
+.download:hover {
+  color: #fff !important;
+  background-color: #7a07af !important;
+}
+
   .txtAboutMe {
      width: 100%;
-     /* width: 100vw; */
-      padding-top: 10%;
+     padding-right: 0%;
+
   }
   
   .txtAboutMe > h1 {
-      display: flex;
       align-self: center;
       justify-content: center;
-      margin-bottom: 4%;
-      padding-left: 50%;
-      padding-top: -5%;
-      padding-bottom: 20%;
+      
       font-size: 6vw;
+      margin-top: 15%;
   }
   
   .txtAboutMe > p {
@@ -151,11 +181,12 @@
   /* About */
   .aboutMe {
     width: 40%;
+    margin-top: -50px;
   }
 
   .txtAboutMe{
     width: 60%;
-    padding-right: 4%;
+    padding-left: 4%;
   }
 
   .txtAboutMe > h1 {
@@ -168,6 +199,7 @@
   }
 
   .foto {
+
     position: absolute;
     top: 18%;
     left: 14%;
@@ -185,6 +217,33 @@
     height: 35vh;
     max-height: 200vh;
   }
+
+    /* Download button */
+.download {
+  background-color: #250235 !important;
+  display: inline-flex;
+  border: 3px solid #E290FE !important;
+  padding: 5px;
+  border-radius: 15px !important;
+  transition: all 0.4s !important;
+  margin-top: 120%;
+  width: 200px;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #E290FE;
+  font-size: 2.2vw;
+
+}
+
+.download > div {
+  margin-left: 5px;
+
+}
+
+.download:hover {
+  color: #fff !important;
+  background-color: #7a07af !important;
+}
 }
 
 @media screen and (min-width: 901px) and (max-width: 1320px){

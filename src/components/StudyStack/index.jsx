@@ -12,7 +12,6 @@ export function StudyStack() {
     <Row
       style={{
         justifyContent: "center",
-        paddingBottom: "60px",
       }}
     >
       <Col xs={4} md={2} className="tech-icons">

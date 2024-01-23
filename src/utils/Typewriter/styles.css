@@ -10,9 +10,8 @@
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
-    font-size: 1.4em !important;
-    font-weight: 500 !important;
-    position: absolute !important;
+    font-size: 3vw;
+    font-weight: 500 ;
   }
   .Typewriter__cursor {
     display: none !important;
