@@ -25,6 +25,9 @@
 .aboutMe {
   position: relative;
   width: 40%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .txtAboutMe{
@@ -45,13 +48,14 @@
 }
 
 .foto {
-  position: absolute;
   top: 7%;
-  left: 22%;
   z-index: 1;
   width: 25vw;
   max-width: 25vw;
   border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .backFoto {
@@ -60,6 +64,32 @@
   margin-left: 35%;
   max-width: 15vw;
   max-height: 200vh;
+}
+
+/* Download button */
+.download {
+  background-color: #250235 !important;
+  display: inline-flex;
+  border: 3px solid #E290FE !important;
+  padding: 15px;
+  border-radius: 25px !important;
+  transition: all 0.4s !important;
+  margin-top: 7%;
+  width: 350px;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #E290FE;
+  font-size: 1.7vw;
+}
+
+.download > div {
+  margin-left: 15px;
+
+}
+
+.download:hover {
+  color: #fff !important;
+  background-color: #7a07af !important;
 }
 
 /* Responsividade */

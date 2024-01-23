@@ -4,15 +4,36 @@ import { IoSettingsOutline } from "react-icons/io5";
 import perfil from "../../assets/img/perfil.png";
 
 import { FaFigma } from "react-icons/fa";
+import { FiDownload } from "react-icons/fi";
+
 import { GoMortarBoard } from "react-icons/go";
+import pdf from "../../assets/CV/CV-ÁureaRibeiro.pdf";
 
 export function About() {
+  const handleDownloadClick = () => {
+    // Substitua 'URL_DO_SEU_PDF' pela URL do seu arquivo PDF
+    const pdfUrl = pdf;
+
+    // Cria um elemento <a> temporário
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.target = "_blank";
+    link.download = "CV-ÁureaRibeiro.pdf"; // Defina o nome do arquivo como desejar
+
+    // Simula um clique no link para iniciar o download
+    link.click();
+  };
+
   return (
     <section id="sobre" className="about">
       <div className="aboutMe">
         <figure>
           <img className="foto" src={perfil} alt="Foto de Áurea Ribeiro" />
         </figure>
+        <button onClick={handleDownloadClick} className="download">
+          <FiDownload />
+          <div>Baixar Currículo</div>
+        </button>
       </div>
 
       <div className="txtAboutMe">
