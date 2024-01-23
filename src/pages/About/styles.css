@@ -7,12 +7,29 @@
   margin-bottom: 5%;
 }
 
+.dark .txtAboutMe > h1 {
+  color: #700b92;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-bottom: 5%;
+}
+
 .txtAboutMe p {
     font-family: 'Lato';
     color: #fff;
     font-size: 1.7vw;
     font-weight: 300;
     text-align: justify;
+}
+
+.dark .txtAboutMe p {
+  font-family: 'Lato';
+  color: #7a07af;
+  font-size: 1.65vw;
+  font-weight: 600;
+  text-align: justify;
 }
 
 .about{
@@ -36,17 +53,28 @@
 }
 
 .txtAboutMe > p > svg{
-  width: 30px;
+  width: 40px;
   height: auto;
   margin-right: 10px;
   fill: #C43FF3;
   color: #C43FF3;
 }
 
+.dark .txtAboutMe > p > svg{
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+  fill: #250235;
+  color: #250235;
+}
+
 .txtAboutMe > p > b {
   color: #E290FE;
 }
 
+.dark .txtAboutMe > p > b {
+  color: #250235;
+}
 .foto {
   top: 7%;
   z-index: 1;
@@ -57,6 +85,19 @@
   align-items: center;
 
 }
+
+.dark .foto {
+  top: 7%;
+  z-index: 1;
+  width: 25vw;
+  max-width: 25vw;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #250235;
+
+}
+
 
 .backFoto {
   position: relative;
@@ -82,6 +123,8 @@
   font-size: 1.4vw;
 }
 
+
+
 .download > div {
   margin-left: 15px;
 
@@ -91,6 +134,34 @@
   color: #fff !important;
   background-color: #7a07af !important;
 }
+
+
+/* Download button Dark*/
+.dark .download {
+  background-color: #E290FE !important;
+  display: inline-flex;
+  padding: 15px;
+  border-radius: 25px !important;
+  transition: all 0.4s !important;
+  margin-top: 3%;
+  width: 270px;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #250235;
+  font-size: 1.4vw;
+  border: 3px solid #250235 !important;
+
+}
+
+
+
+
+
+.dark .download:hover {
+  color: #fff !important;
+  background-color: #250235 !important;
+}
+
 
 /* Responsividade */
 @media screen and (max-width: 500px) {

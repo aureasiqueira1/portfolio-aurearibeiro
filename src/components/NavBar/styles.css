@@ -10,19 +10,15 @@ a {
   text-decoration: none !important;
 }
 
-hr {
-  color: #fff !important;
-  opacity: 30% !important;
-  
-}
 
 
-main.dark nav > ul > a > li{
+
+.dark nav > ul > a > li{
   color: #780DAA;
   font-weight: 600;
 }
 
-main.dark #nav.ativado #menu {
+.dark #nav.ativado #menu {
   background-color: #e2b5f6;
 }
 
@@ -45,10 +41,7 @@ nav > ul > a > li:hover{
   color: rgb(207, 15, 210);
 }
 
-hr {
-  color: #fff;
-  opacity: 30%;
-}
+
 
 .line {
   margin: 0 auto;
@@ -66,7 +59,7 @@ hr {
   width: 72px;
   height: 33px;
   background-color: #520377;
-  margin-top: 1%;
+  margin-top: 3vh;
   border-radius: 20px;
   position: relative;
   cursor: pointer;
@@ -76,7 +69,8 @@ hr {
   width: 32px;
   height:32px;
   background-color: #fff;
-  background-image: url(../../../src/assets/img/Ligth.png);
+  background-image: url(../../../src/assets/img/Dark\ \(1\).png);
+
   border-radius: 50%;
   transform: scale(.9);
   position: absolute;
@@ -92,55 +86,61 @@ hr {
 .trilho.dark .indicador{
   left: 40px;
   /*background-color: #520377;*/
-  background-image: url(../../../src/assets/img/Dark\ \(1\).png);
+  background-image: url(../../../src/assets/img/Ligth.png);
 }
 
-main.dark{
-  background-color: #ebc5fb;
+.dark{
+  background-color: #de91ff;
 }
 
-main.dark nav > ul > a > li{
+.dark nav > ul > a > li{
   color: #780DAA;
   font-weight: 600;
 }
 
-main.dark hr{
-  color: #d163f5;
+.dark hr{
+  color: #230033 !important;
+  opacity: 0.55;
 }
 
-main.dark header{
+hr{
+  color: #ffffff !important;
+  opacity: 0.55;
+
+}
+
+
+
+
+.dark header{
   background-color: #520377;
 }
 
 
 
-main.dark .skills > h1{
+.dark .skills > h1{
   color: #C43FF3;
   font-weight: 600;
 }
 
-main.dark .projects > h1{
+.dark .projects > h1{
   color: #C43FF3;
   font-weight: 600;
 }
 
-main.dark .study > h1{
+.dark .study > h1{
   color: #C43FF3;
   font-weight: 600;
 }
 
 
 
-
-main.dark .card-text{
-  color: #14001d;
-}
 
 
 
 /* menu Mobile */
 
-main.dark #nav.ativado #menu {
+.dark #nav.ativado #menu {
   background-color: #e2b5f6;
 }
 
