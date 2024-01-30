@@ -5,6 +5,7 @@ import kanban from "../../assets/img/kanban.png";
 import financeiro from "../../assets/img/financeiro.png";
 import shoppingcart from "../../assets/img/shoppingcart.png";
 import githubsearch from "../../assets/img/githubsearch.png";
+import spotify from "../../assets/img/spotify.png";
 
 export function Projects() {
   return (
@@ -27,7 +28,6 @@ export function Projects() {
                   demoLink="https://project-schedule-neon.vercel.app/"
                 />
               </Col>
-
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={financeiro}
@@ -38,7 +38,6 @@ export function Projects() {
                   demoLink="https://app-financeiro-nu.vercel.app/"
                 />
               </Col>
-
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={shoppingcart}
@@ -49,7 +48,6 @@ export function Projects() {
                   demoLink="https://shopping-umber.vercel.app/"
                 />
               </Col>
-
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={githubsearch}
@@ -58,6 +56,27 @@ export function Projects() {
                   description="Aplicação que faz buscas de repositórios no github pesquisando usuário/repositório e exibe as informações básicas no front-end."
                   ghLink="https://github.com/aureasiqueira1/FrontEndDesafio"
                   demoLink="https://front-end-desafio-eight.vercel.app/"
+                />
+              </Col>
+              {/*}  <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={quiz}
+                  isBlog={false}
+                  title="Quiz"
+                  description="Aplicação de um quiz com 5 perguntas de verdadeiro ou falso que englobam conhecimentos da disciplina de engenharia de software, foi desenvolvido em flutter utilizando o dart como linguagem."
+                  ghLink="https://github.com/aureasiqueira1/AppQuiz"
+                  demoLink="https://front-end-desafio-eight.vercel.app/"
+                />
+              </Col>
+              */}
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={spotify}
+                  isBlog={false}
+                  title="Spotify"
+                  description="Landing page do Spotify"
+                  ghLink="https://github.com/aureasiqueira1/landing-page-spotify"
+                  demoLink="https://landing-page-spotify-eight.vercel.app/"
                 />
               </Col>
             </Row>
