@@ -6,6 +6,7 @@ import financeiro from "../../assets/img/financeiro.png";
 import shoppingcart from "../../assets/img/shoppingcart.png";
 import githubsearch from "../../assets/img/githubsearch.png";
 import spotify from "../../assets/img/spotify.png";
+import quiz from "../../assets/img/quiz.png";
 
 export function Projects() {
   return (
@@ -58,17 +59,16 @@ export function Projects() {
                   demoLink="https://front-end-desafio-eight.vercel.app/"
                 />
               </Col>
-              {/*}  <Col md={4} className="project-card">
+              <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={quiz}
                   isBlog={false}
                   title="Quiz"
                   description="Aplicação de um quiz com 5 perguntas de verdadeiro ou falso que englobam conhecimentos da disciplina de engenharia de software, foi desenvolvido em flutter utilizando o dart como linguagem."
                   ghLink="https://github.com/aureasiqueira1/AppQuiz"
-                  demoLink="https://front-end-desafio-eight.vercel.app/"
+                  demoLink="https://aureasiqueira1.github.io/AppQuiz/#/"
                 />
               </Col>
-              */}
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={spotify}
