@@ -7,6 +7,7 @@ import shoppingcart from "../../assets/img/shoppingcart.png";
 import githubsearch from "../../assets/img/githubsearch.png";
 import spotify from "../../assets/img/spotify.png";
 import quiz from "../../assets/img/quiz.png";
+import marvel from "../../assets/img/marvel.png";
 
 export function Projects() {
   return (
@@ -27,6 +28,16 @@ export function Projects() {
                   description="Aplicação para gerenciar tarefas de forma simpls e fácil, seja ela qual for. Inspirado no Kanban."
                   ghLink="https://github.com/aureasiqueira1/ProjectSchedule"
                   demoLink="https://project-schedule-neon.vercel.app/"
+                />
+              </Col>
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={marvel}
+                  isBlog={false}
+                  title="Marvel"
+                  description="Aplicação sobre a Marvel, composto por três telas: Personagens, Filmes e HQs. Aqui, é possível acessar informações detalhadas de cada seção ao clicar nelas, além de um carrossel que permite visualizar mais cards ao ser clicado."
+                  ghLink="https://github.com/aureasiqueira1/marvel"
+                  demoLink="https://marvel-three-sandy.vercel.app/"
                 />
               </Col>
               <Col md={4} className="project-card">
