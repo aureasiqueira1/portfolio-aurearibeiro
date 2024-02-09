@@ -8,6 +8,7 @@ import githubsearch from "../../assets/img/githubsearch.png";
 import spotify from "../../assets/img/spotify.png";
 import quiz from "../../assets/img/quiz.png";
 import marvel from "../../assets/img/marvel.png";
+import audio from "../../assets/img/audio-text.png";
 
 export function Projects() {
   return (
@@ -62,12 +63,12 @@ export function Projects() {
               </Col>
               <Col md={4} className="project-card">
                 <ProjectCard
-                  imgPath={githubsearch}
+                  imgPath={spotify}
                   isBlog={false}
-                  title="Pesquisa de Repositórios"
-                  description="Aplicação que faz buscas de repositórios no github pesquisando usuário/repositório e exibe as informações básicas no front-end."
-                  ghLink="https://github.com/aureasiqueira1/FrontEndDesafio"
-                  demoLink="https://front-end-desafio-eight.vercel.app/"
+                  title="Spotify"
+                  description="Landing page do Spotify"
+                  ghLink="https://github.com/aureasiqueira1/landing-page-spotify"
+                  demoLink="https://landing-page-spotify-eight.vercel.app/"
                 />
               </Col>
               <Col md={4} className="project-card">
@@ -82,12 +83,22 @@ export function Projects() {
               </Col>
               <Col md={4} className="project-card">
                 <ProjectCard
-                  imgPath={spotify}
+                  imgPath={audio}
                   isBlog={false}
-                  title="Spotify"
-                  description="Landing page do Spotify"
-                  ghLink="https://github.com/aureasiqueira1/landing-page-spotify"
-                  demoLink="https://landing-page-spotify-eight.vercel.app/"
+                  title="Notas"
+                  description="Aplicação que grava notas utilizando áudio ou texto"
+                  ghLink="https://github.com/aureasiqueira1/audio-text"
+                  demoLink="https://audio-text-ruby.vercel.app/"
+                />
+              </Col>
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={githubsearch}
+                  isBlog={false}
+                  title="Pesquisa de Repositórios"
+                  description="Aplicação que faz buscas de repositórios no github pesquisando usuário/repositório e exibe as informações básicas no front-end."
+                  ghLink="https://github.com/aureasiqueira1/FrontEndDesafio"
+                  demoLink="https://front-end-desafio-eight.vercel.app/"
                 />
               </Col>
             </Row>
