@@ -1,8 +1,5 @@
 import { Col, Row } from "react-bootstrap";
 import {
-  SiHtml5,
-  SiCss3,
-  SiJavascript,
   SiTypescript,
   SiReact,
   SiNextdotjs,
@@ -10,32 +7,15 @@ import {
   SiJest,
   SiFigma,
   SiNodedotjs,
+  SiBootstrap,
+  SiStyledcomponents,
+  SiTailwindcss,
 } from "react-icons/si";
 
 export function Techstack() {
   return (
     <>
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiHtml5 />
-          <p>HTML5</p>
-        </Col>
-
-        <Col xs={4} md={2} className="tech-icons">
-          <SiCss3 />
-          <p>CSS3</p>
-        </Col>
-
-        <Col xs={4} md={2} className="tech-icons">
-          <SiJavascript />
-          <p>JavaScript</p>
-        </Col>
-
-        <Col xs={4} md={2} className="tech-icons">
-          <SiTypescript />
-          <p>TypeScript</p>
-        </Col>
-
         <Col xs={4} md={2} className="tech-icons">
           <SiReact />
           <p>React</p>
@@ -47,13 +27,28 @@ export function Techstack() {
         </Col>
 
         <Col xs={4} md={2} className="tech-icons">
+          <SiTypescript />
+          <p>TypeScript</p>
+        </Col>
+
+        <Col xs={4} md={2} className="tech-icons">
           <SiJest />
           <p>Jest</p>
         </Col>
 
         <Col xs={4} md={2} className="tech-icons">
-          <SiFigma />
-          <p>Figma</p>
+          <SiStyledcomponents />
+          <p>CSS-in-JS</p>
+        </Col>
+
+        <Col xs={4} md={2} className="tech-icons">
+          <SiTailwindcss />
+          <p>Tailwind</p>
+        </Col>
+
+        <Col xs={4} md={2} className="tech-icons">
+          <SiBootstrap />
+          <p>Bootstrap</p>
         </Col>
 
         <Col xs={4} md={2} className="tech-icons">
@@ -64,6 +59,10 @@ export function Techstack() {
         <Col xs={4} md={2} className="tech-icons">
           <SiGit />
           <p>Git</p>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiFigma />
+          <p>Figma</p>
         </Col>
       </Row>
     </>
