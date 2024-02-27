@@ -9,6 +9,9 @@ import spotify from "../../assets/img/spotify.png";
 import quiz from "../../assets/img/quiz.png";
 import marvel from "../../assets/img/marvel.png";
 import audio from "../../assets/img/audio-text.png";
+import metaverso from "../../assets/img/metaverso.png";
+import veículos from "../../assets/img/veículos.png";
+import clientlist from "../../assets/img/client-list.png";
 
 export function Projects() {
   return (
@@ -33,12 +36,22 @@ export function Projects() {
               </Col>
               <Col md={4} className="project-card">
                 <ProjectCard
-                  imgPath={marvel}
+                  imgPath={veículos}
                   isBlog={false}
-                  title="Marvel"
-                  description="Aplicação sobre a Marvel, composto por três telas: Personagens, Filmes e HQs. Aqui, é possível acessar informações detalhadas de cada seção ao clicar nelas, além de um carrossel que permite visualizar mais cards ao ser clicado."
-                  ghLink="https://github.com/aureasiqueira1/marvel"
-                  demoLink="https://marvel-three-sandy.vercel.app/"
+                  title="Veículos"
+                  description="Aplicação para gerenciar carros. Permite cadastrar, editar, excluir e pesquisar um carro e simular score do usuário."
+                  ghLink="https://github.com/aureasiqueira1/oncar-app"
+                  demoLink="https://front-oncar.vercel.app/"
+                />
+              </Col>
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={clientlist}
+                  isBlog={false}
+                  title="Lista de Clientes"
+                  description="Aplicação para gerenciar clientes. Permite cadastrar, editar, apagar cliente e classificá-lo como Vip ou Premium "
+                  ghLink="https://github.com/aureasiqueira1/client-list"
+                  demoLink="https://client-list-one.vercel.app/"
                 />
               </Col>
               <Col md={4} className="project-card">
@@ -51,6 +64,17 @@ export function Projects() {
                   demoLink="https://app-financeiro-nu.vercel.app/"
                 />
               </Col>
+
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={metaverso}
+                  isBlog={false}
+                  title="Metaverso App"
+                  description="Aplicação de uma tela que permite maximizar tela, minimizar tela, fechar tela e minimizar menu."
+                  ghLink="https://github.com/aureasiqueira1/metaverso-app"
+                  demoLink="https://metaverso-app.vercel.app/"
+                />
+              </Col>
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={shoppingcart}
@@ -61,6 +85,7 @@ export function Projects() {
                   demoLink="https://shopping-umber.vercel.app/"
                 />
               </Col>
+
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={spotify}
@@ -79,6 +104,16 @@ export function Projects() {
                   description="Aplicação de um quiz com 5 perguntas de verdadeiro ou falso que englobam conhecimentos da disciplina de engenharia de software, foi desenvolvido em flutter utilizando o dart como linguagem."
                   ghLink="https://github.com/aureasiqueira1/AppQuiz"
                   demoLink="https://aureasiqueira1.github.io/AppQuiz/#/"
+                />
+              </Col>
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  imgPath={marvel}
+                  isBlog={false}
+                  title="Marvel"
+                  description="Aplicação sobre a Marvel, composto por três telas: Personagens, Filmes e HQs. Aqui, é possível acessar informações detalhadas de cada seção ao clicar nelas, além de um carrossel que permite visualizar mais cards ao ser clicado."
+                  ghLink="https://github.com/aureasiqueira1/marvel"
+                  demoLink="https://marvel-three-sandy.vercel.app/"
                 />
               </Col>
               <Col md={4} className="project-card">
