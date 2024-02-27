@@ -93,13 +93,13 @@ export function Projects() {
                   description="Aplicação que grava notas utilizando áudio ou texto"
                   ghLink="https://github.com/aureasiqueira1/audio-text"
                   demoLink="https://audio-text-ruby.vercel.app/"
-                  tecnology="NextJs, TypeScript, Tailwind, SpeechRecognition API"
+                  tecnology="NextJs, TypeScript, Tailwind, Speech Recognition API"
                 />
               </Col>
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={cep}
-                  title="Notas"
+                  title="Cep"
                   description="Aplicação que pesquisa um cep e retorna o endereço completo"
                   ghLink="https://github.com/aureasiqueira1/cep"
                   demoLink="https://cep-taupe.vercel.app/"
@@ -134,7 +134,7 @@ export function Projects() {
                   description="Landing page do Spotify"
                   ghLink="https://github.com/aureasiqueira1/landing-page-spotify"
                   demoLink="https://landing-page-spotify-eight.vercel.app/"
-                  tecnology="CSS, HTML"
+                  tecnology="CSS, HTML, Figma"
                 />
               </Col>
               <Col md={4} className="project-card">
