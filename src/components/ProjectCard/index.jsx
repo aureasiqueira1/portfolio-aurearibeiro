@@ -6,6 +6,8 @@ import { BsGithub } from "react-icons/bs";
 import { Col, Row } from "react-bootstrap";
 
 export function ProjectCard(props) {
+  const labels = props?.tecnology?.split(", ");
+
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
@@ -24,71 +26,11 @@ export function ProjectCard(props) {
               paddingBottom: "10px",
             }}
           >
-            <Col md={4}>
-              {props?.tecnology?.split(",")[0] && (
-                <div className="label">{props?.tecnology?.split(",")[0]}</div>
-              )}
-            </Col>
-
-            <Col md={4}>
-              {props?.tecnology?.split(",")[1] && (
-                <div className="label">{props?.tecnology?.split(",")[1]}</div>
-              )}
-            </Col>
-
-            <Col md={4}>
-              {props?.tecnology?.split(",")[2] && (
-                <div className="label">{props?.tecnology?.split(",")[2]}</div>
-              )}
-            </Col>
-
-            <Col md={4}>
-              {props?.tecnology?.split(",")[3] && (
-                <div className="label">{props?.tecnology?.split(",")[3]}</div>
-              )}
-            </Col>
-
-            <Col md={4}>
-              {props?.tecnology?.split(",")[4] && (
-                <div className="label">{props?.tecnology?.split(",")[4]}</div>
-              )}
-            </Col>
-
-            <Col md={4}>
-              {props?.tecnology?.split(",")[5] && (
-                <div className="label">{props?.tecnology?.split(",")[5]}</div>
-              )}
-            </Col>
-
-            <Col md={4}>
-              {props?.tecnology?.split(",")[6] && (
-                <div className="label">{props?.tecnology?.split(",")[6]}</div>
-              )}
-            </Col>
-
-            <Col md={4}>
-              {props?.tecnology?.split(",")[7] && (
-                <div className="label">{props?.tecnology?.split(",")[7]}</div>
-              )}
-            </Col>
-
-            <Col md={4}>
-              {props?.tecnology?.split(",")[8] && (
-                <div className="label">{props?.tecnology?.split(",")[8]}</div>
-              )}
-            </Col>
-
-            <Col md={4}>
-              {props?.tecnology?.split(",")[9] && (
-                <div className="label">{props?.tecnology?.split(",")[9]}</div>
-              )}
-            </Col>
-
-            <Col md={4}>
-              {props?.tecnology?.split(",")[10] && (
-                <div className="label">{props?.tecnology?.split(",")[10]}</div>
-              )}
-            </Col>
+            {labels.map((label) => (
+              <Col md={4}>
+                <div className="label">{label}</div>
+              </Col>
+            ))}
           </Row>
         </div>
         <div className="buttonProject">

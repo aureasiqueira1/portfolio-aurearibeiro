@@ -23,7 +23,11 @@
   box-shadow: 0px 2px 3px 1px #dc90ff;
   transition: all 0.4s !important;
   width: 105px;
+  height: 64px;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .label:hover {
