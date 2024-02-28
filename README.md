@@ -4,9 +4,10 @@
  🎨 Portfólio - Áurea Ribeiro 
 </h2>
 
+<h4 align="center"><a href="https://portfolio-aurearibeiro.vercel.app/">Clique para visitar o projeto</a></h4>
+
 ![Alt text](image.png)
 
-<h4 align="center"><a href="https://portfolio-six-omega-18.vercel.app/">Clique para visitar o projeto</a></h4>
 
 ## 🎯 Tecnologias utilizadas
 
