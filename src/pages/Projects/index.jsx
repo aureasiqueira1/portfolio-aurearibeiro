@@ -13,6 +13,7 @@ import metaverso from "../../assets/img/metaverso.png";
 import veículos from "../../assets/img/veículos.png";
 import clientlist from "../../assets/img/client-list.png";
 import cep from "../../assets/img/cep.png";
+import mobile from "../../assets/img/mobile.png";
 
 export function Projects() {
   return (
@@ -35,6 +36,7 @@ export function Projects() {
                   tecnology="React, JavaScript, CSS, PostgreSQL, Express, TypeORM"
                 />
               </Col>
+
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={veículos}
@@ -45,6 +47,7 @@ export function Projects() {
                   tecnology="React, TypeScript, Styled Components, NestJs, TypeORM, PostgreSQL"
                 />
               </Col>
+
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={clientlist}
@@ -55,6 +58,7 @@ export function Projects() {
                   tecnology="React, TypeScript, Styled Components, NestJs, TypeORM, PostgreSQL, Swagger"
                 />
               </Col>
+
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={financeiro}
@@ -76,6 +80,7 @@ export function Projects() {
                   tecnology="NextJS, TypeScript, Styled Components"
                 />
               </Col>
+
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={shoppingcart}
@@ -86,6 +91,7 @@ export function Projects() {
                   tecnology="React, JavaScript, CSS3, HTML5, API Lorem Picsum"
                 />
               </Col>
+
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={audio}
@@ -96,6 +102,7 @@ export function Projects() {
                   tecnology="NextJs, TypeScript, Tailwind, Speech Recognition API"
                 />
               </Col>
+
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={cep}
@@ -106,6 +113,7 @@ export function Projects() {
                   tecnology="NextJs, TypeScript, Tailwind, Jest, Storybook, API ViaCep"
                 />
               </Col>
+
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={quiz}
@@ -116,6 +124,7 @@ export function Projects() {
                   tecnology="Flutter, Dart, Mockito"
                 />
               </Col>
+
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={marvel}
@@ -137,6 +146,7 @@ export function Projects() {
                   tecnology="CSS, HTML, Figma"
                 />
               </Col>
+
               <Col md={4} className="project-card">
                 <ProjectCard
                   imgPath={githubsearch}
@@ -145,6 +155,17 @@ export function Projects() {
                   ghLink="https://github.com/aureasiqueira1/FrontEndDesafio"
                   demoLink="https://front-end-desafio-eight.vercel.app/"
                   tecnology="React, TypeScript, Styled Components"
+                />
+              </Col>
+
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  className="mobile"
+                  imgPath={mobile}
+                  title="Lanchonete"
+                  description="Aplicativo de uma lanchonete que permite adicionar ao carrinho, remover do carrinho e enviar pedido."
+                  ghLink="https://github.com/aureasiqueira1/hamburguer-delivery"
+                  tecnology="React Native, Expo, Tailwind"
                 />
               </Col>
             </Row>
