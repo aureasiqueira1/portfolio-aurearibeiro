@@ -91,6 +91,17 @@ align-items: center;}
   font-size: 24px !important;
 }
 
+
+@media screen and (max-width: 1024px) {
+  /* Responsividade */
+  .labelGroup .col-md-4{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    width: 150px;
+  }
+}
+
 @media screen and (max-width: 500px) {
   /* Responsividade */
 
@@ -120,15 +131,6 @@ align-items: center;}
 }
 
 
-@media screen and (max-width: 768px) {
-  /* Responsividade */
-  .labelGroup .col-md-4{
-    display: flex;
-    justify-content: center;
-    justify-content: center;
-    width: 150px;
-  }
-}
 
 
 @media screen and (min-width: 501px) and (max-width: 900px) {
