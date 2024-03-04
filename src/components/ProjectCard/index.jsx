@@ -21,10 +21,7 @@ export function ProjectCard(props) {
 
         <div className="labelGroup">
           <Row
-            style={{
-              justifyContent: "center",
-              paddingBottom: "10px",
-            }}
+        
           >
             {labels.map((label) => (
               <Col md={4}>

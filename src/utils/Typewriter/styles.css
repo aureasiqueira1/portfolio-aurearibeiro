@@ -1,5 +1,5 @@
 .Typewriter__wrapper {
-  font-size: 3vw !important;
+  font-size: 3vw;
 
   font-weight: 600 !important;
 }
@@ -8,12 +8,17 @@
 
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 500px) {
+
   .Typewriter__wrapper {
-    font-size: 3vw;
+    
+    font-size: 4vw;
     font-weight: 500 ;
   }
   .Typewriter__cursor {
     display: none !important;
   }
 }
+
+
+

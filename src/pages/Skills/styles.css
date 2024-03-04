@@ -78,6 +78,19 @@
   .tech-icons p {
     font-size: 4vw;
   }
+
+ .col-4 {
+    flex: 0 0 auto;
+    width: 50% !important;
+}
+
+}
+
+@media (max-width: 768px) {
+  .col-4 {
+    flex: 0 0 auto;
+    width: 22% !important;
+}
 }
 
 .tech-icons:hover {

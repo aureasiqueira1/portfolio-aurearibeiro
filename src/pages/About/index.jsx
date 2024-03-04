@@ -7,7 +7,7 @@ import { FaFigma } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 
 import { GoMortarBoard } from "react-icons/go";
-import pdf from "../../assets/CV/CV-ÁureaRibeiro.pdf";
+import pdf from "../../assets/CV/Curriculo-ÁureaRibeiro.pdf";
 
 export function About() {
   const handleDownloadClick = () => {
@@ -41,9 +41,9 @@ export function About() {
 
         <p>
           <FaReact />
-          Desenvolvedora Front-end com experiência em{" "}
-          <b>React.js, JavaScript, TypeScript, Styled Components, Jest </b> e
-          consumo de <b> APIs REST</b>
+          Mais de 2 anos de experiência em desenvolvimento Front-end utilizando {" "}
+          <b>React, TypeScript, Styled Components, Jest, Git </b> e
+          integração de <b> APIs REST</b>
           .
           <br />
           <br />

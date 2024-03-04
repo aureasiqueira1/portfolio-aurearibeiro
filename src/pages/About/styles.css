@@ -25,11 +25,10 @@
 }
 
 .dark .txtAboutMe p {
-  font-family: 'Lato';
-  color: #7a07af;
-  font-size: 1.65vw;
-  font-weight: 600;
-  text-align: justify;
+    color: #7a07af;
+    font-size: 4vw;
+    font-weight: 300;
+    text-align: left;
 }
 
 .about{
@@ -75,6 +74,7 @@
 .dark .txtAboutMe > p > b {
   color: #250235;
 }
+
 .foto {
   top: 7%;
   z-index: 1;
@@ -83,21 +83,13 @@
   border-radius: 100%;
   justify-content: center;
   align-items: center;
-
 }
 
 .dark .foto {
-  top: 7%;
-  z-index: 1;
-  width: 25vw;
-  max-width: 25vw;
-  border-radius: 100%;
-  justify-content: center;
-  align-items: center;
-  border: 3px solid #250235;
+  width: 45vw;
+  max-width: 45vw;
 
 }
-
 
 .backFoto {
   position: relative;
@@ -123,8 +115,6 @@
   font-size: 1.2vw;
 }
 
-
-
 .download > div {
   margin-left: 15px;
 
@@ -140,22 +130,16 @@
 .dark .download {
   background-color: #E290FE !important;
   display: inline-flex;
-  padding: 15px;
   border-radius: 25px !important;
   transition: all 0.4s !important;
-  margin-top: 3%;
-  width: 270px;
   align-items: center !important;
   justify-content: center !important;
   color: #250235;
-  font-size: 1.4vw;
   border: 3px solid #250235 !important;
-
+  padding: 5px;
+  width: 150px;
+  font-size: 4vw;
 }
-
-
-
-
 
 .dark .download:hover {
   color: #fff !important;
@@ -180,58 +164,85 @@
   }
 
   /* Download button */
-.download {
-  background-color: #250235 !important;
-  display: inline-flex;
-  border: 3px solid #E290FE !important;
-  padding: 5px;
-  border-radius: 25px !important;
-  transition: all 0.4s !important;
-  margin-top: 7%;
-  width: 150px;
-  align-items: center !important;
-  justify-content: center !important;
-  color: #E290FE;
-  font-size: 3vw;
+  .download {
+    background-color: #250235 !important;
+    display: inline-flex;
+    border: 3px solid #E290FE !important;
+    padding: 5px;
+    border-radius: 25px !important;
+    transition: all 0.4s !important;
+    width: 150px;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #E290FE;
+    font-size: 4vw;
+  }
 
-}
+  .about{
+    padding: 10px ;
+  }
 
-.download > div {
-  margin-left: 5px;
+  .dark .about{
+      padding: 10px;
+  }
 
-}
 
-.download:hover {
-  color: #fff !important;
-  background-color: #7a07af !important;
-}
+  .download > div {
+    margin-left: 5px;
+  }
+
+  .download:hover {
+    color: #fff !important;
+    background-color: #7a07af !important;
+  }
 
   .txtAboutMe {
      width: 100%;
      padding-right: 0%;
-
   }
   
   .txtAboutMe > h1 {
       align-self: center;
       justify-content: center;
-      
       font-size: 6vw;
-      margin-top: 15%;
+      margin-top: 5%;
   }
   
   .txtAboutMe > p {
-      font-size: 3.5vw;
-      font-weight: 300;
-      text-align: justify;
-      padding: 15px;
+      font-size: 4vw;
+      text-align: left;
+      font-weight: 500;
   }
+
+
+  .dark .txtAboutMe > p {
+    font-size: 4vw;
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .txtAboutMe > p > svg{
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+    fill: #C43FF3;
+    color: #C43FF3;
+  }
+
+  .dark  .txtAboutMe > p > svg{
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+    fill: #C43FF3;
+    color: #C43FF3;
+  }
+
 
   .foto {
       top: 0%;
       left: 32%;
-      width: 35vw;
-      max-width: 35vw;
+      width: 45vw;
+      max-width: 45vw;
   }
      
   .backFoto {
@@ -255,22 +266,44 @@
     margin-top: -50px;
   }
 
-  .txtAboutMe{
-    width: 60%;
-    padding-left: 4%;
+  .dark .aboutMe{
+    width: 40%;
+    margin-top: -50px;
   }
 
+
+
   .txtAboutMe > h1 {
+    font-size: 4vw;
+  }
+
+  .dark .txtAboutMe > h1 {
     font-size: 4vw;
   }
 
   .txtAboutMe > p{
     font-size: 2vw;
     text-align: justify;
+    font-weight: 500;
+
+  }
+
+  .dark  .txtAboutMe > p{
+    font-size: 2vw;
+    text-align: justify;
+    font-weight: 500;
   }
 
   .foto {
+    position: absolute;
+    top: 18%;
+    left: 14%;
+    z-index: 1;
+    width: 30vw;
+    max-width: 30vw;
+  }
 
+  .dark .foto{
     position: absolute;
     top: 18%;
     left: 14%;
@@ -289,6 +322,7 @@
     max-height: 200vh;
   }
 
+
     /* Download button */
 .download {
   background-color: #250235 !important;
@@ -302,6 +336,22 @@
   align-items: center !important;
   justify-content: center !important;
   color: #E290FE;
+  font-size: 2.2vw;
+
+}
+
+.dark .download {
+  background-color: #E290FE !important;
+  display: inline-flex;
+  border: 3px solid #250235 !important;
+  padding: 5px;
+  border-radius: 15px !important;
+  transition: all 0.4s !important;
+  margin-top: 120%;
+  width: 200px;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #250235;
   font-size: 2.2vw;
 
 }

@@ -1,6 +1,6 @@
 header > .presentation > h1{
   font-family: 'Kanit';
-  font-size: 6vw;
+  font-size: 10vw;
   color: #E290FE;
   animation: go-back 1s;
   margin-bottom: 40px;
@@ -15,17 +15,26 @@ header > .presentation > h1{
   }
 }
 
+header > .presentation > h1 {
+  font-family: 'Kanit';
+  font-size: 10vw;
+  color: #E290FE;
+  animation: go-back 1s;
+  margin-bottom: 40px;
+
+}
+
 header > .presentation > h2 {
   font-family: 'Lato';
   color: #fff;
-  font-size: 3vw;
+  font-size: 7vw;
   animation: go-back 1s;
 
 }
 
 header > .presentation > div {
   color: #fff;
-  font-size: 1vw;
+  font-size: 5vw;
   animation: go-back 1s;
 
 }
@@ -70,6 +79,7 @@ header > img {
       height: 40vh;
       margin-top: 3%;
       margin-bottom: 3%;
+      padding: 5px
   }
    
   .presentation {
@@ -78,9 +88,7 @@ header > img {
       width: 60vw;
   }
   
-  .presentation > h1 {
-      font-size: 10vw;
-  }
+
   
   .presentation > h2 {
       font-size: 5vw;
