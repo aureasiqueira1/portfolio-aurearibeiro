@@ -1,10 +1,3 @@
-header > .presentation > h1{
-  font-family: 'Kanit';
-  font-size: 10vw;
-  color: #E290FE;
-  animation: go-back 1s;
-  margin-bottom: 40px;
-}
 
 @keyframes go-back {
   0% {
@@ -17,7 +10,7 @@ header > .presentation > h1{
 
 header > .presentation > h1 {
   font-family: 'Kanit';
-  font-size: 10vw;
+  font-size: 8vw;
   color: #E290FE;
   animation: go-back 1s;
   margin-bottom: 40px;
@@ -27,7 +20,7 @@ header > .presentation > h1 {
 header > .presentation > h2 {
   font-family: 'Lato';
   color: #fff;
-  font-size: 7vw;
+  font-size: 5vw;
   animation: go-back 1s;
 
 }
@@ -58,6 +51,8 @@ header {
   display: flex;
   flex-direction: row;
   box-shadow: 0px 36px 55px -6px rgba(0,0,0,0.55);
+  padding: 20px;
+
 }
 
 header > img {
@@ -150,3 +145,43 @@ header > img {
 }
 }
 
+
+
+
+@media screen and (min-width: 1440px){
+  header > .presentation > h1 {
+    font-family: 'Kanit';
+    font-size: 6vw;
+    color: #E290FE;
+    animation: go-back 1s;
+    margin-top: 270px;
+    padding-top: 40px;
+  
+  }
+  
+  header > .presentation > h2 {
+    font-family: 'Lato';
+    color: #fff;
+    font-size: 3vw;
+    animation: go-back 1s;
+  
+  }
+  
+  .Typewriter{
+    margin-bottom: 250px;
+  }
+  header > .presentation > div {
+    color: #fff;
+    font-size: 3vw;
+    animation: go-back 1s;
+    margin-bottom: 100px
+
+  
+  }
+
+  .presentation{
+    justify-content: center;
+  align-items: center;
+text-align: center;
+  }
+}

@@ -1,10 +1,11 @@
 .project-card-view {
-  box-shadow: 0 4px 5px 3px #250235 !important;
+  box-shadow: 0 4px 5px 3px #dc90ff !important;
   color: white !important;
   background: #700b92 !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+
 }
 
 .project-card-view:hover {
@@ -104,8 +105,6 @@ align-items: center;}
   }
 
   .labelGroup .col-md-4{
-    /* flex: 0 0 auto;
-    width: 50%; */
     display: flex;
     justify-content: center;
     justify-content: center;

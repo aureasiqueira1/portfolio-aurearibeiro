@@ -25,11 +25,14 @@
 }
 
 .dark .txtAboutMe p {
-    color: #7a07af;
-    font-size: 4vw;
-    font-weight: 300;
-    text-align: left;
+  font-family: 'Lato';
+  color: #fff;
+  font-size: 1.7vw;
+  font-weight: 300;
+  text-align: justify;
 }
+
+
 
 .about{
   display: flex;
@@ -86,8 +89,13 @@
 }
 
 .dark .foto {
-  width: 45vw;
-  max-width: 45vw;
+  top: 7%;
+  z-index: 1;
+  width: 25vw;
+  max-width: 25vw;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -115,6 +123,8 @@
   font-size: 1.2vw;
 }
 
+
+
 .download > div {
   margin-left: 15px;
 
@@ -127,18 +137,21 @@
 
 
 /* Download button Dark*/
+
+
 .dark .download {
   background-color: #E290FE !important;
   display: inline-flex;
+  border: 3px solid #250235 !important;
+  padding: 15px;
   border-radius: 25px !important;
   transition: all 0.4s !important;
+  margin-top: 3%;
+  width: 280px;
   align-items: center !important;
   justify-content: center !important;
   color: #250235;
-  border: 3px solid #250235 !important;
-  padding: 5px;
-  width: 150px;
-  font-size: 4vw;
+  font-size: 1.2vw;
 }
 
 .dark .download:hover {
