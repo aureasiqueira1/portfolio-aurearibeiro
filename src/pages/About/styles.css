@@ -191,6 +191,20 @@
     font-size: 4vw;
   }
 
+  .dark .download {
+    background-color: #E290FE !important;
+    display: inline-flex;
+    border: 3px solid #250235 !important;
+    padding: 5px;
+    border-radius: 25px !important;
+    transition: all 0.4s !important;
+    width: 150px;
+    align-items: center !important;
+    justify-content: center !important;
+    color: #250235;
+    font-size: 4vw;
+  }
+
   .about{
     padding: 10px ;
   }
@@ -257,6 +271,13 @@
       width: 45vw;
       max-width: 45vw;
   }
+  .dark .foto {
+    top: 0%;
+    left: 32%;
+    width: 45vw;
+    max-width: 45vw;
+}
+   
      
   .backFoto {
       position: relative;
