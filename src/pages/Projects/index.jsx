@@ -14,6 +14,7 @@ import veículos from "../../assets/img/veículos.png";
 import clientlist from "../../assets/img/client-list.png";
 import cep from "../../assets/img/cep.png";
 import mobile from "../../assets/img/mobile.png";
+import cook from "../../assets/img/cookApp.png";
 
 export function Projects() {
   return (
@@ -160,12 +161,22 @@ export function Projects() {
 
               <Col md={4} className="project-card">
                 <ProjectCard
-                  className="mobile"
                   imgPath={mobile}
                   title="Lanchonete"
                   description="Aplicativo de uma lanchonete que permite adicionar ao carrinho, remover do carrinho e enviar pedido."
                   ghLink="https://github.com/aureasiqueira1/hamburguer-delivery"
                   tecnology="React Native, Expo, Tailwind"
+                />
+              </Col>
+
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  className="mobile"
+                  imgPath={cook}
+                  title="Cook App"
+                  description="Aplicação que sugere receitas conforme os ingredientes selecionados"
+                  ghLink="https://github.com/aureasiqueira1/cook-app"
+                  tecnology="React Native, Expo, Expo router, Supabase, React Native reanimated"
                 />
               </Col>
             </Row>

@@ -10,7 +10,12 @@ export function ProjectCard(props) {
 
   return (
     <Card className="project-card-view">
-      <Card.Img variant="top" src={props.imgPath} alt="card-img" />
+      {props?.className === 'mobile' ? 
+      (<Card.Img className="mobile-image" variant="top" src={props.imgPath} alt="card-img" />) 
+      : 
+      ( <Card.Img variant="top" src={props.imgPath} alt="card-img" />) 
+      }
+     
 
       <Card.Body>
         <Card.Title>

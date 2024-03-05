@@ -5,14 +5,30 @@
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  overflow-y: scroll-hidden !important;;
+  overflow-x: hidden;
+  padding-bottom: 24px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px !important;
 
 }
 
-.project-card-view:hover {
+.project-card-view .mobile-image{
+    height: 280.7px !important;
+    width: 288px !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+
+ .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0px 3px 3px 7px #dc90ff !important;
-}
+} 
 
 .dark .project-card-view {
   box-shadow: 0 4px 5px 3px #250235 !important;
@@ -59,7 +75,10 @@
   padding-bottom: 20px;
   justify-content: center;
 
-align-items: center;}
+align-items: center;
+}
+
+
 
 
 .btn-primary {
@@ -70,6 +89,18 @@ align-items: center;}
   border-radius: 25px !important;
   box-shadow: 0px 3px 3px 4px #250235;
   transition: all 0.4s !important;
+}
+
+.buttonProject{
+  width: 100%;
+  height: 40px;
+  display: flex;
+  float: right;
+  position: absolute;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
 }
 
 .btn-primary:hover {
