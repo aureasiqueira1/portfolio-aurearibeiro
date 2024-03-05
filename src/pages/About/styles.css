@@ -189,6 +189,8 @@
     justify-content: center !important;
     color: #E290FE;
     font-size: 4vw;
+    width: 60%;
+
   }
 
   .dark .download {
@@ -203,7 +205,11 @@
     justify-content: center !important;
     color: #250235;
     font-size: 4vw;
+    width: 60%;
   }
+
+  
+
 
   .about{
     padding: 10px ;
@@ -410,4 +416,13 @@
   .txtAboutMe > p{
       text-align: justify;
   }
+
+ 
+}
+
+@media screen and (min-width: 1024px){
+
+   .download{
+    font-size: 1.2rem !important;
+   }
 }
