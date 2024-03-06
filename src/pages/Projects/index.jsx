@@ -15,6 +15,7 @@ import clientlist from "../../assets/img/client-list.png";
 import cep from "../../assets/img/cep.png";
 import mobile from "../../assets/img/mobile.png";
 import cook from "../../assets/img/cookApp.png";
+import goals from "../../assets/img/mygoals.png";
 
 export function Projects() {
   return (
@@ -177,6 +178,17 @@ export function Projects() {
                   description="Aplicação que sugere receitas conforme os ingredientes selecionados"
                   ghLink="https://github.com/aureasiqueira1/cook-app"
                   tecnology="React Native, Expo, Expo router, Supabase, React Native reanimated"
+                />
+              </Col>
+
+              <Col md={4} className="project-card">
+                <ProjectCard
+                  className="mobile"
+                  imgPath={goals}
+                  title="My Goals"
+                  description="App de metas financeiras pessoal"
+                  ghLink="https://github.com/aureasiqueira1/MyGoals"
+                  tecnology="React Native, Typescript, Expo, Expo router, NativeWind, Tailwindcss, SQLite"
                 />
               </Col>
             </Row>
