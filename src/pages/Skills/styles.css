@@ -80,6 +80,7 @@
 
   .tech-icons {
     margin: 10px !important;
+    width: 100px !important;
   }
 
   .tech-icons p {
@@ -88,7 +89,7 @@
 
  .col-4 {
     flex: 0 0 auto;
-    width: 50% !important;
+    width: 43% !important;
 }
 
 }
