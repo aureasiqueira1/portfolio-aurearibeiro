@@ -18,6 +18,21 @@ import cook from "../../assets/img/cookApp.png";
 import goals from "../../assets/img/mygoals.png";
 
 export function Projects() {
+  function handleCarouselMove(positive) {
+    const carousel = document.querySelector(".carousel-container");
+    const slide = document.querySelector(".carousel-slide");
+
+    if (slide) {
+      const slideWidth = slide.clientWidth;
+
+      if (carousel) {
+        carousel.scrollLeft = positive
+          ? carousel.scrollLeft + slideWidth
+          : carousel.scrollLeft - slideWidth;
+      }
+    }
+  } 
+
   return (
     <>
       <section id="projetos" className="projects">
@@ -27,8 +42,23 @@ export function Projects() {
       <section id="projects-section">
         <Container fluid className="project-section">
           <Container>
-            <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-              <Col md={4} className="project-card">
+          <button
+            className="carousel-arrow carousel-arrow--prev"
+             onClick={() => handleCarouselMove(false)}
+          >
+            &#8249;
+          </button>
+
+          <button
+            className="carousel-arrow carousel-arrow--next"
+            onClick={() => handleCarouselMove(true)}
+          >
+            &#8250;
+  </button> 
+
+           <div className="carousel-container" dir="ltr"> 
+
+           <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={kanban}
                   title="Agenda - Kanban"
@@ -39,7 +69,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={veículos}
                   title="Veículos"
@@ -50,7 +80,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={clientlist}
                   title="Lista de Clientes"
@@ -61,7 +91,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={financeiro}
                   title="Sistema Financeiro"
@@ -72,7 +102,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={metaverso}
                   title="Metaverso App"
@@ -83,7 +113,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={shoppingcart}
                   title="E-Commerce"
@@ -94,7 +124,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={audio}
                   title="Notas"
@@ -105,7 +135,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={cep}
                   title="Cep"
@@ -116,7 +146,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={quiz}
                   title="Quiz"
@@ -127,7 +157,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={marvel}
                   title="Marvel"
@@ -138,7 +168,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={spotify}
                   title="Spotify"
@@ -149,7 +179,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={githubsearch}
                   title="Pesquisa de Repositórios"
@@ -160,7 +190,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={mobile}
                   title="Lanchonete"
@@ -170,7 +200,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   className="mobile"
                   imgPath={cook}
@@ -181,7 +211,7 @@ export function Projects() {
                 />
               </Col>
 
-              <Col md={4} className="project-card">
+              <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   className="mobile"
                   imgPath={goals}
@@ -191,8 +221,12 @@ export function Projects() {
                   tecnology="React Native, Typescript, Expo, Expo router, NativeWind, Tailwindcss, SQLite"
                 />
               </Col>
-            </Row>
+            </div> 
+
+  
           </Container>
+
+ 
         </Container>
       </section>
     </>
