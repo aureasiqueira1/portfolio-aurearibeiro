@@ -13,14 +13,7 @@
 
 }
 
-.project-card-view .mobile-image{
-    height: 280.7px !important;
-    width: 288px !important;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  
-}
+
 
  /* .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -131,6 +124,15 @@ align-items: center;
 @media screen and (max-width: 500px) {
   /* Responsividade */
 
+  .project-card-view .mobile-image{
+    height: 100% !important;
+    width: 190px !important;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    
+  }
+  
   .btn-primary {
     color: #fff !important;
     background-color: transparent !important;

@@ -193,6 +193,8 @@ export function Projects() {
               <Col md={4} className="project-card carousel-slide">
                 <ProjectCard
                   imgPath={mobile}
+                  className="mobile"
+
                   title="Lanchonete"
                   description="Aplicativo de uma lanchonete que permite adicionar ao carrinho, remover do carrinho e enviar pedido."
                   ghLink="https://github.com/aureasiqueira1/hamburguer-delivery"
